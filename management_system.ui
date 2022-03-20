@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1013</width>
-    <height>722</height>
+    <width>1430</width>
+    <height>963</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -45,7 +45,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap>../LOGO/law_enforcement.png</pixmap>
+          <pixmap>../../management_system#1/LOGO/law_enforcement.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -267,37 +267,66 @@ color: rgb(255, 255, 255);</string>
       <widget class="QWidget" name="p0"/>
       <widget class="QWidget" name="p1"/>
       <widget class="QWidget" name="p2">
-       <layout class="QGridLayout" name="gridLayout_26">
-        <item row="0" column="0">
-         <widget class="QTableWidget" name="ProfiletWidget"/>
-        </item>
-       </layout>
+       <layout class="QGridLayout" name="gridLayout_26"/>
       </widget>
       <widget class="QWidget" name="p3">
-       <layout class="QGridLayout" name="gridLayout_25">
-        <item row="0" column="0">
-         <widget class="QTableWidget" name="DevicetWidget"/>
-        </item>
-       </layout>
+       <layout class="QGridLayout" name="gridLayout_25"/>
       </widget>
       <widget class="QWidget" name="p4">
-       <layout class="QGridLayout" name="gridLayout_24">
-        <item row="0" column="0">
-         <widget class="QTableWidget" name="UsertWidget"/>
-        </item>
-       </layout>
+       <layout class="QGridLayout" name="gridLayout_24"/>
       </widget>
       <widget class="QWidget" name="p5">
-       <layout class="QGridLayout" name="gridLayout_23">
-        <item row="0" column="0">
-         <widget class="QTableWidget" name="InformationtWidget"/>
-        </item>
-       </layout>
+       <layout class="QGridLayout" name="gridLayout_23"/>
       </widget>
       <widget class="QWidget" name="p6">
        <layout class="QGridLayout" name="gridLayout_22">
         <item row="0" column="0">
-         <widget class="QTableWidget" name="DetailtWidget"/>
+         <widget class="QWidget" name="widget_16" native="true">
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="0">
+            <widget class="QComboBox" name="cBox"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="pSelect">
+             <property name="text">
+              <string>Select</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="2">
+            <widget class="QLabel" name="viewBreath">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(237, 212, 0);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>../1.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" colspan="2">
+            <widget class="QLabel" name="viewHeart">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(237, 212, 0);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>../2.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -921,7 +950,7 @@ background-color: rgb(252, 233, 79);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1013</width>
+     <width>1430</width>
      <height>22</height>
     </rect>
    </property>
